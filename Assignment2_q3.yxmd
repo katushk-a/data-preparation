@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Универ\BusinessIntelligence\weather.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>weather.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="year" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="month" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="element" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d1" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d2" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d3" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d4" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d5" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d6" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d7" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d8" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d9" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d10" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d11" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d12" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d13" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d14" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d15" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d16" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d17" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d18" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d19" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d20" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d21" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d22" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d23" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d24" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d25" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d26" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d27" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d28" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d29" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d30" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+            <Field name="d31" size="254" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([day_of_measurements], Left([day_of_measurements], 1), &quot;&quot;)" field="day_of_measurements" size="3" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>day_of_measurements = Replace([day_of_measurements], Left([day_of_measurements],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Country" />
+            <Field field="year" />
+            <Field field="month" />
+            <Field field="element" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Country" selected="False" />
+            <Field field="year" selected="False" />
+            <Field field="month" selected="False" />
+            <Field field="element" selected="False" />
+            <Field field="d1" selected="True" />
+            <Field field="d2" selected="True" />
+            <Field field="d3" selected="True" />
+            <Field field="d4" selected="True" />
+            <Field field="d5" selected="True" />
+            <Field field="d6" selected="True" />
+            <Field field="d7" selected="True" />
+            <Field field="d8" selected="True" />
+            <Field field="d9" selected="True" />
+            <Field field="d10" selected="True" />
+            <Field field="d11" selected="True" />
+            <Field field="d12" selected="True" />
+            <Field field="d13" selected="True" />
+            <Field field="d14" selected="True" />
+            <Field field="d15" selected="True" />
+            <Field field="d16" selected="True" />
+            <Field field="d17" selected="True" />
+            <Field field="d18" selected="True" />
+            <Field field="d19" selected="True" />
+            <Field field="d20" selected="True" />
+            <Field field="d21" selected="True" />
+            <Field field="d22" selected="True" />
+            <Field field="d23" selected="True" />
+            <Field field="d24" selected="True" />
+            <Field field="d25" selected="True" />
+            <Field field="d26" selected="True" />
+            <Field field="d27" selected="True" />
+            <Field field="d28" selected="True" />
+            <Field field="d29" selected="True" />
+            <Field field="d30" selected="True" />
+            <Field field="d31" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="522" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="day_of_measurements" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="702" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Country" />
+            <Field field="year" />
+            <Field field="month" />
+            <Field field="element" />
+            <Field field="day_of_measurements" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="810" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>Value</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-11-04 11:34:39</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>NA</Operand>
+              <StartDate>2023-11-04 11:34:39</StartDate>
+              <EndDate>2023-11-04 11:34:39</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Value] != "NA"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1194" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="month" order="Ascending" />
+            <Field field="day_of_measurements" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>month - Ascending
+day_of_measurements - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="month" selected="True" type="Int32" size="4" />
+            <SelectField field="day_of_measurements" selected="True" type="Int32" size="4" />
+            <SelectField field="Value" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1026" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Country" />
+            <Field field="year" />
+            <Field field="month" />
+            <Field field="day_of_measurements" />
+          </GroupFields>
+          <HeaderField field="element" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="First" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country" size="254" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="year" size="254" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="month" source="CrossTab:Group:First:" type="Int32" />
+            <Field name="day_of_measurements" source="CrossTab:Group:First:" type="Int32" />
+            <Field name="tmax" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="Double" />
+            <Field name="tmin" source="File: D:\Универ\BusinessIntelligence\weather.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1326" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\Универ\BusinessIntelligence\Assignment2_q3.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Assignment2_q3.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Assignment2_q3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8b6d6f02-5754-4935-886b-0b04872d006b" />
+      <Telemetry>
+        <PreviousWorkflowId value="2def93fb-f3be-45c8-9b84-883cce31ec46" />
+        <OriginWorkflowId value="2def93fb-f3be-45c8-9b84-883cce31ec46" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
