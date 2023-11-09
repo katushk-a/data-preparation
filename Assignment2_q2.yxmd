@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DTO_EMPLOYEES_REA_2018_C.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Cost Center" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="1/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="2/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="3/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="4/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="5/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="6/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="7/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="8/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="9/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="10/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="11/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="12/1/2018" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="1/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="2/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="3/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="4/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="5/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="6/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="7/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="8/1/2019" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="1/1/2020" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="2/1/2020" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="3/1/2020" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="4/1/2020" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="5/1/2020" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+            <Field name="6/1/2020" size="254" source="File: C:\Users\User\AppData\Local\Temp\Rar$DRa12192.49599\Employee_data\DTO_EMPLOYEES_REA_2018_C.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Cost Center" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Cost Center" selected="False" />
+            <Field field="1/1/2018" selected="True" />
+            <Field field="2/1/2018" selected="True" />
+            <Field field="3/1/2018" selected="True" />
+            <Field field="4/1/2018" selected="True" />
+            <Field field="5/1/2018" selected="True" />
+            <Field field="6/1/2018" selected="True" />
+            <Field field="7/1/2018" selected="True" />
+            <Field field="8/1/2018" selected="True" />
+            <Field field="9/1/2018" selected="True" />
+            <Field field="10/1/2018" selected="True" />
+            <Field field="11/1/2018" selected="True" />
+            <Field field="12/1/2018" selected="True" />
+            <Field field="1/1/2019" selected="True" />
+            <Field field="2/1/2019" selected="True" />
+            <Field field="3/1/2019" selected="True" />
+            <Field field="4/1/2019" selected="True" />
+            <Field field="5/1/2019" selected="True" />
+            <Field field="6/1/2019" selected="True" />
+            <Field field="7/1/2019" selected="True" />
+            <Field field="8/1/2019" selected="True" />
+            <Field field="1/1/2020" selected="True" />
+            <Field field="2/1/2020" selected="True" />
+            <Field field="3/1/2020" selected="True" />
+            <Field field="4/1/2020" selected="True" />
+            <Field field="5/1/2020" selected="True" />
+            <Field field="6/1/2020" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Date" />
+            <SelectField field="Value" selected="True" rename="Employee" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if IsNull([Employee]) then 0 else [Employee] endif" field="Employee" size="254" type="V_String" />
+            <FormulaField expression="&quot;Employeesdataset&quot;" field="Dataset" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Employee = if IsNull([Employee]) then 0 else [Employee] endif
+Dataset = "Employe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="474" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Универ\BusinessIntelligence\DIM_MASTER_ORGANISATION.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DIM_MASTER_ORGANISATION.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Location Code" size="254" source="File: D:\Универ\BusinessIntelligence\DIM_MASTER_ORGANISATION.csv" type="V_WString" />
+            <Field name="Location" size="254" source="File: D:\Универ\BusinessIntelligence\DIM_MASTER_ORGANISATION.csv" type="V_WString" />
+            <Field name="Company" size="254" source="File: D:\Универ\BusinessIntelligence\DIM_MASTER_ORGANISATION.csv" type="V_WString" />
+            <Field name="Department Number" size="254" source="File: D:\Универ\BusinessIntelligence\DIM_MASTER_ORGANISATION.csv" type="V_WString" />
+            <Field name="Cost Center" size="254" source="File: D:\Универ\BusinessIntelligence\DIM_MASTER_ORGANISATION.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="594" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Cost Center" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Cost Center" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Cost Center" selected="True" rename="Right_Cost Center" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="714" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="822" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">D:\Универ\BusinessIntelligence\t1.tde</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>t1.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Left" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ca02ad12-8b0f-461c-b378-4215b16d9246" />
+      <Telemetry>
+        <PreviousWorkflowId value="4f23c275-6159-4be8-b17e-79eae2cb15ef" />
+        <OriginWorkflowId value="4f23c275-6159-4be8-b17e-79eae2cb15ef" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
